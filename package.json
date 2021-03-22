@@ -1,0 +1,21 @@
+{
+  "name": "nodereceiver",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Sir_monk",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "8.5.1"
+  },
+  "engines": {
+    "node": "14.16.0"
+  }
+}
