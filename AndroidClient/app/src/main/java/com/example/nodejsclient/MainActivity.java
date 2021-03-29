@@ -60,12 +60,11 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         URL url = null;
                         try {
-                            //url = new URL("http://n2l22.000webhostapp.com/Qracle.php?Hello=NoSpaceValidCheck");
-                            //https://tranquil-magnetic-impatiens.glitch.me/
-                           url = new URL("https://nodereceiver.herokuapp.com/");
-                            //http://localhost:2227/
-                            //url = new URL("http://10.0.2.2:2227/");
 
+
+                           url = new URL("https://yourapp.herokuapp.com/");
+                            //url = new URL("http://10.0.2.2:2227/"); to connect to servers running on local host (development environment not the Android Emulator). 
+							//Using localhost or 127.0. 0.1 points to the android device/emultaor itself
                         } catch (MalformedURLException e) {
                             e.printStackTrace();
                         }

@@ -6,11 +6,12 @@ var port = process.env.PORT || 2227;
 
 
 
+//Postgress DB running on Heroku servers
 const pool = new pg.Pool({
 user: 'User_Name',
 host: 'xxxxxxxx.amazonaws.com',
-database: 'Database_Name',
-password: 'Password',
+database: 'Your_Database_Name',
+password: 'Your_Password',
 port: '5432'//,
 //ssl: true,
 //sslmode: require,
